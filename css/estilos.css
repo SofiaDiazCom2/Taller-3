@@ -1,0 +1,402 @@
+html {
+    font-family: "Montserrat", sans-serif;
+    background-color: #F6F3EE;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.7vw;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 5vw;
+    font-weight: 800;
+}
+
+/*--------------PRIMERA SECCIÓN----------*/
+
+.seccion-1{
+    margin-top: -1vw;
+}
+
+.subtitulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40vw;
+}
+
+.subtitulos h5{
+    font-size: 2vw;
+    color: #474747;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 9vw;
+    color: #93B95A;
+    margin-left: 8vw;
+    width: 40%;
+    font-weight: 800;
+    line-height: 90%;
+}
+
+img.piel {
+    width: 33vw;
+    margin-left: 60vw;
+    margin-top: -35vw;
+}
+
+.botón {
+    font-family: "Montserrat", sans-serif;
+    border-radius: 71px;
+    font-size: 1.7vw;
+    font-weight: 700;
+    background-color: #A2BDDB;
+    color: #ffffff;
+    padding: 1.3vw 2.5vw;
+    margin-left: 8vw;
+    border: 0;
+    float: left;
+    margin-top: -5vw;
+}
+
+
+/*-----------SEGUNDA SECCIÓN--------*/
+.seccion-2{
+    margin-top: -5vw;
+}
+
+.hoja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 14vw;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.cuadrado {
+    position: absolute;
+    width: 60vw;
+    height: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F3EE;
+    top: 62vw;
+    z-index: 2;
+    left: 19.8vw;
+}
+
+
+.cuadrado h2 {
+    position: relative;
+    top: 1.7vw;
+    z-index: 3;
+    color: #A2BDDB;
+}
+
+.cuadrado h4 {
+    position: relative;
+    font-size: 2.5vw;
+    font-weight: 500;
+    z-index: 3;
+    color: #A2BDDB;
+    margin-top: -1vw;
+    display: flex;
+    justify-content: center;
+}
+
+/*------------TERCERA SECCIÓN-------*/
+
+.seccion-3{
+    margin: 8vw 0 0 11vw;
+}
+
+.seccion-3 h2 {
+    width: 40vw;
+    height: 5vw;
+    color: #9E8CD0;
+}
+
+.seccion-3 p{
+    margin-top: -2vw;
+    width: 79vw;
+    height: 20vw;
+}
+
+/*----------ARCOIRIS 1---------*/
+
+.arcoiris {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+/*------------CUARTA SECCIÓN---------*/
+
+.seccion-4{
+    position: relative;
+    z-index: 2;
+    margin-top: -60vw;
+    margin: -65vw 0 0 8vw;
+
+}
+
+.violeta {
+    justify-content: center;
+    background-color: #9E8CD0;
+    width: 85vw;
+    height: 40vw;
+}
+
+.seccion-4 h2{
+    color: #fff;
+    margin-top: -32vw;
+    margin-left: 5vw;
+    width: 80vw;
+    height: 5vw;
+}
+
+.seccion-4 p{
+    margin-top: -1vw;
+    margin-left: 4vw;
+    width: 77vw;
+    height: 20vw;
+    color: #fff;
+}
+
+.seccion-4 a{
+    color: #fff;
+    margin-left: 29vw;
+    font-weight: 700;
+}
+
+
+/*-----------QUINTA SECCIÓN-----------*/
+
+.seccion-5 {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 80vw;
+    background-color: #A2BDDB;
+    margin-top: 17vw;
+}
+
+.seccion-5 h2 {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    color: #F6F3EE;
+    margin-left: 10vw;
+    padding-top: 8vw;
+}
+
+.seccion-5 p {
+    position: relative;
+    z-index: 2;
+    margin: -2vw 0 0 10vw;
+    color: #F6F3EE;
+    width: 70vw;
+}
+
+.imagenes {
+    display: flex;
+    gap: 3vw;
+    margin-top: 4vw;
+    flex-direction: row;
+    position: relative;
+    z-index: 2;
+    margin-left: 10vw;
+    margin-bottom: 4vw;
+}
+
+.imagenes img{
+    width: 24vw;
+    height: 30vw;
+}
+
+.seccion-5 a {
+    position: relative;
+    z-index: 2;
+    margin-left: 35vw;
+    color: #F6F3EE;
+    font-weight: 700;
+    font-size: 1.7vw;
+}
+
+
+/*-----------SEXTA SECCIÓN------------*/
+
+.seccion-6 h2 {
+    position: relative;
+    z-index: 2;
+    color: #9E8CD0;
+    margin-top: -310vw;
+    margin-left: 10vw;
+    width: 30vw;
+    height: 5vw;
+}
+
+.seccion-6 p {
+    position: relative;
+    z-index: 2;
+    margin-left: 10vw;
+    margin-top: -2vw;
+    width: 78.5vw;
+    height: 30vw;
+}
+
+.seccion-6 a {
+    color: #9E8CD0;
+    font-weight: 700;
+    font-size: 1.7vw;
+}
+
+
+/*------------------ARCOIRIS 2-----------------*/
+
+.arcoiris2 {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    margin-left: -3vw;
+}
+
+
+/*--------------SÉPTIMA SECCIÓN-----------------*/
+
+.seccion-7{
+    width: 100%;
+    height: 80vw;
+}
+
+.violeta2 {
+    position: relative;
+    z-index: 2;
+    background-color: #9E8CD0;
+    width: 85vw;
+    height: 250vw;
+    margin-left: 7.1vw;
+    top: 10vw;
+}
+
+.seccion-7 h2 {
+    position: relative;
+    z-index: 2;
+    color: #F6F3EE;
+    top: -235vw;
+    left: 32vw;
+    width: 30vw;
+    height: 5vw;
+}
+
+.seccion-7 h3 {
+    position: relative;
+    z-index: 2;
+    color: #F6F3EE;
+    font-weight: 700;
+    top: -233vw;
+    font-size: 3.6vw;
+    left: 19vw;
+    width: 65vw;
+}
+
+.redes {
+    display: flex;
+    position: relative;
+    align-items: center;
+    z-index: 2;
+    top: -230vw;
+    left: 0vw;
+    flex-direction: column;
+}
+
+.redes p {
+    color: #F6F3EE;
+}
+
+
+.redes p a {
+    font-weight: 700;
+    color: #F6F3EE;
+}
+
+
+.redes1{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.redes img{
+    width: 18.5vw;
+    height: 100%;
+}
+
+.redes1 p {
+    margin-top: 15vw;
+    width: 40vw;
+}
+
+.redes2{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5vw;
+}
+
+.redes2 img {
+margin-right: 5vw;
+}
+
+.redes2 p {
+width: 40vw;
+margin-top: 15vw;
+}
+
+/*----------------OCTAVA SECCIÓN-----------------*/
+
+.seccion-8{
+    width: 79vw;
+    height: 130vw;
+    margin-left: 15vw;
+    margin-top: 40vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-8 h3{
+    position: relative;
+    z-index: 2;
+    color: #F6F3EE;
+    font-weight: 700;
+    font-size: 3.6vw;
+}
+
+.fotos {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    left: -5vw;
+}
+
+.fotos img{
+    width: 60vw;
+}
+
