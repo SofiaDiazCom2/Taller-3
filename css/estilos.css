@@ -9,19 +9,19 @@ body {
 }
 
 p {
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     font-weight: 500;
 }
 
 h2 {
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 800;
 }
 
 button {
     font-family: "Montserrat", sans-serif;
     border-radius: 71px;
-    font-size: 1.7vw;
+    font-size: 1.4vw;
     font-weight: 700;
     background-color: #A2BDDB;
     color: #ffffff;
@@ -55,7 +55,7 @@ button {
 }
 
 h1 {
-    font-size: 9vw;
+    font-size: 7.5vw;
     color: #93B95A;
     margin-left: 8vw;
     width: 40%;
@@ -89,40 +89,42 @@ img.piel {
 
 .cuadrado {
     position: absolute;
-    width: 60vw;
-    height: 45vw;
+    width: 50vw;
+    height: 40vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #F6F3EE;
-    top: 62vw;
+    top: 58vw;
     z-index: 2;
-    left: 19.8vw;
+    left: 23.5vw;
 }
 
 
 .cuadrado h2 {
     position: relative;
-    top: 1.7vw;
+    top: 1vw;
     z-index: 3;
     color: #A2BDDB;
+    bottom: 1vw;
 }
 
 .cuadrado h4 {
     position: relative;
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     font-weight: 500;
     z-index: 3;
     color: #A2BDDB;
-    margin-top: -1vw;
+    margin-top: -0.5vw;
     display: flex;
     justify-content: center;
 }
 
+
 /*------------TERCERA SECCIÓN-------*/
 
 .seccion-3 {
-    margin: 15vw 0 0 11vw;
+    margin: 10vw 0 0 11vw;
 }
 
 .seccion-3 h2 {
@@ -151,8 +153,7 @@ img.piel {
 .seccion-4 {
     position: relative;
     z-index: 2;
-    margin-top: -110vw;
-    margin: -65vw 0 0 8vw;
+    margin: -80vw 0 0 8vw;
 
 }
 
@@ -166,22 +167,23 @@ img.piel {
 .seccion-4 h2 {
     color: #fff;
     margin-top: -32vw;
-    margin-left: 5vw;
-    width: 80vw;
+    margin-left: 12vw;
+    width: 70vw;
     height: 5vw;
 }
 
 .seccion-4 p {
     margin-top: -1vw;
-    margin-left: 4vw;
-    width: 77vw;
+    margin-left: 12vw;
+    width: 60vw;
     height: 20vw;
     color: #fff;
+    text-align: center;
 }
 
 .seccion-4 a {
     color: #fff;
-    margin-left: 29vw;
+    margin-left: 0vw;
     font-weight: 700;
 }
 
@@ -302,7 +304,7 @@ img.piel {
     z-index: 2;
     color: #F6F3EE;
     top: -285vw;
-    left: 32vw;
+    left: 35vw;
     width: 30vw;
     height: 5vw;
 }
@@ -383,7 +385,7 @@ img.piel {
     justify-content: left;
     z-index: 2;
     top: 0vw;
-    font-size: 3.5vw;
+    font-size: 3vw;
     left: 0vw;
     width: 100%;
     font-weight: 700;
@@ -395,7 +397,7 @@ img.piel {
     margin-top: -2vw;
     color: #474747;
     width: 46vw;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 
 }
 
