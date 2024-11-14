@@ -843,7 +843,7 @@ margin-top: -2vw;
 .carousel-cabina{
     position: relative;
     margin-left: 60vw;
-    margin-top: -25vw;
+    margin-top: -33vw;
 }
 
 
@@ -858,4 +858,10 @@ margin-top: -2vw;
 
 .next5{
     margin-right: 3.8vw;
+}
+
+.seccion-14 a{
+    margin-left: 5vw;
+    color: #9E8CD0;
+    font-weight: 700;
 }
