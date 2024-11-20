@@ -91,9 +91,17 @@
         </p>
 
         <div class="imagenes">
-            <img src="./img/fotogrametria.png" alt="boceto">
-            <img src="./img/pielPrueba.png" alt="Prueba de piel">
-            <img src="./img/escenario.png" alt="Escenario">
+
+            <!-- Import the component -->
+            <script type="module"
+                src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+            <!-- Use it like any other HTML element -->
+            <model-viewer alt="Fotogrametría de la Nueva Piel" src="./img/18_11_2024.glb" ar shadow-intensity="1"
+                camera-controls touch-action="pan-y"></model-viewer>
+
+            <img src="./img/pielPrueba.png" alt="Prueba de piel" class="img-1">
+            <img src="./img/escenario.png" alt="Escenario" class="img-2">
         </div>
 
         <a
@@ -548,22 +556,43 @@
         <h4>15/11/2024</h4>
 
         <div class="titulos5">
-            <p>Para finalizar el trabajo, comenzamos con la construcción de la experiencia la cual, va a contar con la
-                Nueva Piel como elemento principal. Comenzamos realizando una cabina de 2mts de alto por 2mts de
-                profundidad
-                y 1.5 de ancho usando vigas de durlock para la base y tornillos mariposa para hacerla desarmable.
-                Después,
-                la decoramos con telas negras por fuera y tules colgando del techo para transportar al usuario a un
-                universo
-                natural y armonioso. En el centro, colocamos una mesa desde la cual el usuario va a poder colocarse el
-                guante que va a tener la piel y agarrar diferentes alimentos, con sabores muy particulares y fáciles de
-                distinguir. Apenas empiece a degustar los distintos sabores, sus pulsaciones cardíacas van a comenzar a
-                modificarse alterando las tonalidades de la luz y las melodías que ambientan la experiencia. </p>
+            <p>La experiencia fue diseñada para simular el interior de una habitación de una casa del futuro, integrando
+                tecnología, naturaleza y bienestar. En la historia que creamos, los edificios sostenibles juegan un
+                papel fundamental, destacando la conexión entre la arquitectura y la naturaleza como un eje central del
+                futuro. <br><br>
+                Presentamos una habitación cálida y acogedora, con telas y texturas suaves en tonos claros que decoran
+                tanto el techo como las paredes, evocando un ambiente sereno y natural. Integramos elementos de la
+                naturaleza como plantas y aromas relajantes, como el de la lavanda, para envolver al usuario en una
+                atmósfera multisensorial. Complementamos la decoración con colgantes, atrapasueños, llamadores de
+                ángeles, una lámpara tenue, y un cuadro especial con fotografías que vinculan al usuario con nuestra
+                narrativa: una imagen de nuestras protagonistas, Laura y Mabel; una referencia a la compañía en la que
+                trabajan, ArqVita; y el producto principal de la experiencia, La Nueva Piel. En el centro de la cabina,
+                se encuentra una mesa cuidadosamente dispuesta. Sobre ella, colocamos cuencos con gelatinas de sabores
+                contrastantes (ácidos, picantes y dulces), cubiertos, vasos, y un mate. También, en el extremo izquierdo
+                de la mesa, destaca un guante hecho de tela combinado con La Nueva Piel, montado sobre un soporte
+                acompañado de un folleto que explica qué es y cómo funciona dicho elemento. El espacio incluye detalles
+                que enriquecen la experiencia: un almohadón frente a la mesa para que el usuario se siente, y a su
+                derecha, un revistero con un ejemplar de la revista “Traza tu futuro ahora”. Esta revista ofrece un
+                vistazo a los diferentes aspectos del futuro que proponemos, como la arquitectura sustentable, la moda
+                transparente, la alimentación alternativa y La Nueva Piel. <br><br>
+                Al ingresar a la cabina, a través de una puerta hecha de tela y tul blanco, el usuario se sienta en el
+                almohadón y se coloca el guante de La Nueva Piel. Una vez puesto, puede comenzar a degustar los
+                alimentos y bebidas dispuestos en la mesa. Sobre el usuario, suspendido del techo, se encuentra un
+                frasco de vidrio que contiene agua y emite luces cambiantes. Estas luces responden a los cambios en el
+                ritmo cardíaco del usuario, detectados por La Nueva Piel. Los colores proyectados se reflejan en toda la
+                cabina, creando un efecto dinámico que simula el movimiento del agua, un elemento crucial en el futuro
+                que imaginamos, presente tanto en la arquitectura como en la moda. La experiencia multisensorial se
+                complementa con sonidos que también varían de acuerdo con el ritmo cardíaco, envolviendo al usuario en
+                una interacción que conecta cuerpo, emociones y entorno. Al finalizar, el usuario puede quitarse el
+                guante y recorrer los distintos elementos de la cabina, explorando a su ritmo los aspectos visuales y
+                conceptuales de este futuro planteado.</p>
 
-                <a href="https://drive.google.com/drive/folders/1rPbW1tCsX52LpQp_56Znds3gMDbjSLnj?usp=sharing">Video de la experiencia</a>
+            <a href="https://drive.google.com/drive/folders/1rPbW1tCsX52LpQp_56Znds3gMDbjSLnj?usp=sharing">Video de la
+                experiencia</a>
         </div>
 
         <div class="carousel-cabina">
+            <h5>Construcción de la cabina</h5>
             <div class="mySlides5 fade5">
                 <div class="numbertext5">1 / 6</div>
                 <img src="./img/cabina5.jpeg" alt="">
@@ -605,6 +634,32 @@
                 <span class="dot5" onclick="currentSlide5(4)"></span>
                 <span class="dot5" onclick="currentSlide5(5)"></span>
                 <span class="dot5" onclick="currentSlide5(6)"></span>
+            </div>
+
+        </div>
+
+        <div class="carousel-muestra">
+            <h5>Muestra Utopías cosmo-técnicas</h5>
+
+            <div class="mySlides6 fade6">
+                <div class="numbertext6">1 / 2</div>
+                <img src="./img/muestra1.jpeg" alt="">
+            </div>
+
+            <div class="mySlides6 fade6">
+                <div class="numbertext6">2 / 2</div>
+                <img src="./img/muestra2.jpeg" alt="">
+            </div>
+
+
+            <a class="prev6" onclick="plusSlides6(-1)">&#10094;</a>
+            <a class="next6" onclick="plusSlides6(1)">&#10095;</a>
+
+
+            <div style="text-align:center">
+                <span class="dot6" onclick="currentSlide6(1)"></span>
+                <span class="dot6" onclick="currentSlide6(2)"></span>
+
             </div>
 
         </div>
