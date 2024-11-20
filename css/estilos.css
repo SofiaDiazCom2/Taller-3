@@ -18,6 +18,13 @@ h2 {
     font-weight: 800;
 }
 
+h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #474747;
+}
+
 button {
     font-family: "Montserrat", sans-serif;
     border-radius: 71px;
@@ -219,7 +226,7 @@ img.piel {
 
 .imagenes {
     display: flex;
-    gap: 3vw;
+    gap: 2vw;
     margin-top: 4vw;
     flex-direction: row;
     position: relative;
@@ -231,6 +238,11 @@ img.piel {
 .imagenes img {
     width: 24vw;
     height: 30vw;
+    margin-right: 5vw;
+}
+
+.img-2{
+    margin-left: -4vw;
 }
 
 .seccion-5 a {
@@ -240,6 +252,12 @@ img.piel {
     color: #F6F3EE;
     font-weight: 700;
     font-size: 1.7vw;
+}
+
+model-viewer{
+    width: 100%; /* Ajusta según tus necesidades */
+    height: auto;
+    margin-left: -5vw;
 }
 
 
@@ -520,7 +538,9 @@ img.piel {
 .prev4,
 .next4,
 .prev5,
-.next5 {
+.next5,
+.prev6,
+.next6 {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -540,7 +560,8 @@ img.piel {
 .next2, 
 .next3,
 .next4,
-.next5 {
+.next5,
+.next6 {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
@@ -555,7 +576,9 @@ img.piel {
 .prev4:hover,
 .next4:hover,
 .prev5:hover,
-.next5:hover {
+.next5:hover,
+.prev6:hover,
+.next6:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -564,7 +587,8 @@ img.piel {
 .numbertext2,
 .numbertext3,
 .numbertext4,
-.numbertext5 {
+.numbertext5,
+.numbertext6 {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
@@ -577,7 +601,8 @@ img.piel {
 .dot2, 
 .dot3, 
 .dot4,
-.dot5 {
+.dot5,
+.dot6 {
     cursor: pointer;
     height: 1vw;
     width: 1vw;
@@ -597,7 +622,9 @@ img.piel {
 .active4,
 .dot4:hover,
 .active5,
-.dot5:hover {
+.dot5:hover,
+.active6,
+.dot6:hover {
     background-color: #717171;
 }
 
@@ -606,7 +633,8 @@ img.piel {
 .fade2,
 .fade3,
 .fade4,
-.fade5 {
+.fade5,
+.fade6 {
     animation-name: fade;
     animation-duration: 1.5s;
 }
@@ -653,6 +681,16 @@ img.piel {
 }
 
 @keyframes fade5 {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade6 {
     from {
         opacity: .4
     }
@@ -843,7 +881,12 @@ margin-top: -2vw;
 .carousel-cabina{
     position: relative;
     margin-left: 60vw;
-    margin-top: -33vw;
+    margin-top: -75vw;
+}
+
+.carousel-cabina h5{
+margin-bottom: 0.5rem;
+margin-left: 6rem;
 }
 
 
@@ -860,8 +903,47 @@ margin-top: -2vw;
     margin-right: 3.8vw;
 }
 
+.prev5{
+    margin-left: 0vw;
+}
+
 .seccion-14 a{
     margin-left: 5vw;
     color: #9E8CD0;
     font-weight: 700;
+}
+
+.numbertext5{
+    top: 2.5rem;
+}
+
+
+/*----------- SECCIÓN 14 - CAROUSEL MUESTRA---------------*/
+
+.carousel-muestra{
+    position: relative;
+    margin-left: 60vw;
+    margin-top: 5vw;
+}
+
+.carousel-muestra h5{
+margin-bottom: 0.1rem;
+margin-left: 5rem;
+}
+
+
+.mySlides6 {
+    display: none;
+}
+
+.next6{
+    margin-right: 3.8vw;
+}
+
+.prev6{
+    margin-left: -20vw;
+}
+
+.numbertext6{
+    top: 2.5rem;
 }
