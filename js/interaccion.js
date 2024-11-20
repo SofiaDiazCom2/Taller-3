@@ -110,6 +110,8 @@ function showSlides4(n) {
   dots4[slideIndex4 - 1].className += " active";
 }
 
+//Quinto carrousel
+
 let slideIndex5 = 1;
 showSlides5(slideIndex5);
 
@@ -148,3 +150,47 @@ function showSlides5(n) {
   slides5[slideIndex5 - 1].style.display = "block";  
   dots5[slideIndex5 - 1].className += " active";
 }
+
+
+//Sexto carrousel
+
+let slideIndex6 = 1;
+showSlides6(slideIndex6);
+
+function plusSlides6(n) {
+  showSlides6(slideIndex6 += n);
+}
+
+function currentSlide6(n) {
+  showSlides6(slideIndex6 = n);
+}
+
+function showSlides6(n) {
+  let i;
+  let slides6 = document.getElementsByClassName("mySlides6");
+  let dots6 = document.getElementsByClassName("dot6");
+  
+  if (n > slides6.length) {
+    slideIndex6 = 1;
+  }
+  
+  if (n < 1) {
+    slideIndex6 = slides6.length;
+  }
+  
+  // Ocultar todas las diapositivas
+  for (i = 0; i < slides6.length; i++) {
+    slides6[i].style.display = "none";  
+  }
+  
+  // Quitar la clase "active" de todos los puntos
+  for (i = 0; i < dots6.length; i++) {
+    dots6[i].className = dots6[i].className.replace(" active", "");
+  }
+  
+  // Mostrar la diapositiva actual y marcar el punto correspondiente como activo
+  slides6[slideIndex6 - 1].style.display = "block";  
+  dots6[slideIndex6 - 1].className += " active";
+}
+
+
